@@ -13,7 +13,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt update && apt upgrade -yq && apt install 
 	libgd-dev \
 	supervisor \
 	exiftran \
-	&& git clone https://github.com/thibaud-rohmer/PhotoShow.git /var/www/PhotoShow \
+	&& git clone https://github.com/ip-ang/PhotoShow.git /var/www/PhotoShow \
 	&& apt remove -yq \
        	ca-certificates \
        	git \
